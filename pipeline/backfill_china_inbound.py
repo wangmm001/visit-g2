@@ -25,7 +25,7 @@ CDX = 'https://web.archive.org/cdx/search/cdx'
 HOST = r'(习近平|李强|李克强|胡锦涛|温家宝)'
 ACT = r'(会见|会谈|举行欢迎仪式|共同会见记者)'
 FTITLE = r'(总统|总理|首相|国王|国家元首|埃米尔|苏丹|大公|亲王|委员长|临时总统|总统当选人|内阁总理|联邦总理|主席)'
-EXCL = r'外长|外交大臣|副总理|副总统|王储|国家杜马|国际奥委会|议长|前总统|前总理|夫人'
+EXCL = r'外长|外交大臣|副总理|副总统|王储|国家杜马|国际奥委会|议长|前总统|前总理|夫人|特使|特别代表|国会主席|大呼拉尔|参议院|众议院|国民议会|人民院|联邦院'
 CN_PLACES = ['北京','人民大会堂','钓鱼台','中南海','天津','上海','杭州','成都','广州','深圳','西安','哈尔滨','三亚','博鳌','厦门','青岛','郑州','南京','武汉','重庆','南海']
 PAT1 = re.compile(r'(?:会见|同|与)([一-龥]{2,12}?)(总统|总理|国王|首相|国家元首|埃米尔|苏丹|大公|亲王|委员长|临时总统|总统当选人|内阁总理|联邦总理|主席)([一-龥·]{1,15})')
 PAT2 = re.compile(r'(?:会见|同|与)([一-龥]{2,5})[一-龥、党中央委员会总书记第一记劳动]{0,28}(?:国家主席|国务委员长|国家元首)([一-龥·\-]{1,12})')
@@ -82,32 +82,37 @@ def inventory():
     return rows
 
 
-def fetch_all(max_n=None):
-    """逐篇抓 Wayback 原始正文(id_模式), 断点续传, 429 退避"""
+def fetch_one(k, ts, u):
+    out = f'{ART}/{k}.html'
+    code, backoff = None, 30
+    for attempt in range(5):
+        code = curl(f'https://web.archive.org/web/{ts}id_/{u}', out, timeout=60)
+        if code == '200': return True
+        if code in ('429', '503', '000'):
+            time.sleep(backoff); backoff = min(backoff * 2, 300)
+        else: break
+    if os.path.exists(out): os.remove(out)
+    with open(f'{BF}/fetch_fail.log', 'a') as f: f.write(f'{k}\t{ts}\t{u}\t{code}\n')
+    return False
+
+
+def fetch_all(max_n=None, workers=10):
+    """抓 Wayback 原始正文(id_模式), 小并发+429退避, 断点续传"""
+    from concurrent.futures import ThreadPoolExecutor
     todo = [ln.rstrip('\n').split('\t') for ln in open(f'{BF}/inventory.tsv')]
     # 日期式 URL 直接暴露发布年, 2013 前的不在回填范围; 流水号无从判断只能全抓
     todo = [t for t in todo if not (re.match(r't20\d{6}_', t[0]) and t[0][1:5] < '2013')]
     done = set(os.listdir(ART))
     todo = [t for t in todo if f'{t[0]}.html' not in done]
     if max_n: todo = todo[:max_n]
-    print(f'fetch: 待抓 {len(todo)} 篇 (已有 {len(done)})')
-    ok = fail = 0
-    for i, (k, ts, u) in enumerate(todo):
-        out = f'{ART}/{k}.html'
-        code, backoff = None, 30
-        for attempt in range(5):
-            code = curl(f'https://web.archive.org/web/{ts}id_/{u}', out, timeout=60)
-            if code == '200': break
-            if code in ('429', '503', '000'):
-                time.sleep(backoff); backoff = min(backoff * 2, 300)
-            else: break
-        if code == '200': ok += 1
-        else:
-            fail += 1
-            if os.path.exists(out): os.remove(out)
-            with open(f'{BF}/fetch_fail.log', 'a') as f: f.write(f'{k}\t{ts}\t{u}\t{code}\n')
-        if (i + 1) % 100 == 0: print(f'  {i+1}/{len(todo)} ok={ok} fail={fail}', flush=True)
-        time.sleep(0.4)
+    print(f'fetch: 待抓 {len(todo)} 篇 (已有 {len(done)}), {workers} 并发')
+    ok = fail = n = 0
+    with ThreadPoolExecutor(workers) as ex:
+        for good in ex.map(lambda t: fetch_one(*t), todo):
+            n += 1
+            if good: ok += 1
+            else: fail += 1
+            if n % 100 == 0: print(f'  {n}/{len(todo)} ok={ok} fail={fail}', flush=True)
     print(f'fetch 完成: ok={ok} fail={fail}')
 
 
@@ -163,7 +168,9 @@ def extract(years=None):
             m2 = PAT2.search(r['title'])
             if not m2: continue
             country, name = m2.groups(); title = '国家主席/总书记'
-        name = re.sub(r'(举行|会谈|共同|并|和太后.*)$', '', name).strip()
+        # 老站标题无（日期）后缀且常带演讲从句, 人名需在修辞词处截断
+        name = re.sub(r'(时指出.*|时强调.*|时表示.*|宣布.*|指出.*|强调.*|表示.*|会谈.*|举行.*|共同.*|并.*|和太后.*|和欧盟委员会.*)$', '', name).strip()
+        if not name: continue
         d = datetime.fromisoformat(r['date']); merged = False
         for v in visits.values():
             if v['country'] == country and (v['name'][:3] == name[:3] or name in v['name'] or v['name'] in name) \
