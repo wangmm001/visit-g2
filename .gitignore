@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+pipeline/out/mfa_art/
+pipeline/out/mfa_list_*.html
+pipeline/backfill/
+backfill/
+*.log
