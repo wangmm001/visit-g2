@@ -19,8 +19,8 @@ bash run_monthly.sh          # 每月跑一次 (crontab: 0 6 1 * * )
 | backfill_china_inbound.py | 访华历史回填 | Wayback 快照→现网正文 | 需环境可访问 web.archive.org |
 
 ## 已知事项
-1. 访华 2013-2024 回填已完成 60% (493/819, 2026-07 v2 运行, 详见 docs/backfill_report_202607.md): Wayback 捕获宇宙限制, 2013-14/2018 最稀; 剩余缺口主要靠峰会名单补充模块(见第2条)。重跑: python3 backfill_china_inbound.py all (约6h, 断点续传)。
-2. 访华管线只捕捉有双边会见通稿的到访; 纯参会(上合/APEC周)未获会见的领导人会漏计, 需峰会与会名单补充模块。
+1. 访华 2013-2024 回填已完成 77% (635/819, 2026-07 v2 三通道: Wayback正文+预告文章+峰会名单, 详见 docs/backfill_report_202607.md)。重跑: python3 backfill_china_inbound.py all (约6h, 断点续传)。剩余缺口: 2013-15 早期快照稀疏、FOCAC 2024/首届进博会名单缺来源。
+2. 峰会与会名单模块已落地 (data/summit_attendees.csv, 行级出处): 新增在华峰会时追加名单行, 跑 python3 backfill_china_inbound.py summits (±12天窗口去重, 幂等)。
 3. 访美 2025 维基分页更新滞后(覆盖约半), 补全需白宫日程/新闻源。
 4. 新美国总统就任时: 在 update_outbound.py 的 OTH_FILES 与 WIKI_PAGES 中追加条目。
 5. 全自动跑与人工校对版会有 ±2% 级别差异(维基页面变动、边界记录), 关键分析前建议抽查 flags 列。

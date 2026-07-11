@@ -192,19 +192,97 @@ def extract(years=None):
     return out
 
 
-def merge():
-    """回填并入 out/inbound_cn_master.csv (月度管线已有记录优先, country+name+月 去重)"""
+CN_OFFICIALS = r'李源潮|张德江|刘延东|汪洋|王岐山|韩正|杨洁篪|王毅|栗战书|赵乐际|丁薛祥|王沪宁|胡春华|孙春兰|张高丽|国家副主席|全国人大|全国政协'
+PAT_A = re.compile(r'^([一-龥]{2,15}?)(总统|总理|首相|国王|国家元首|埃米尔|苏丹|大公|亲王|委员长|内阁总理|联邦总理|主席)([一-龥·\-]{1,15}?)将')
+
+
+def announce():
+    """预告类文章 ("XX总统YY将访华/将出席...峰会"): 主抽取只认会见/会谈标题, 这批全漏.
+    访问窗口取正文"将于X月X日至X日", 无窗口或无在华线索则弃 -> backfill/inbound_cn_announce.csv"""
+    recs = []
+    for fn in sorted(os.listdir(ART)):
+        p = parse_article(fn[:-5], f'{ART}/{fn}')
+        if not p: continue
+        d, t, body = p
+        if not re.search(r'将(对中华人民共和国|对中国|来华|访华|出席|访问中国|对我国)', t): continue
+        if re.search(EXCL, t) or re.search(HOST, t) or re.search(CN_OFFICIALS, t): continue
+        m = PAT_A.match(t)
+        if not m: continue
+        country, title, name = m.groups()
+        i = body.find(t[:12])
+        seg = body[i:i + 800] if i >= 0 else body[-2500:]
+        if not re.search(r'来华|访华|对中国进行|对中华人民共和国进行|访问中国', seg): continue
+        w = re.search(r'于(\d{1,2})月(\d{1,2})日(?:至(?:(\d{1,2})月)?(\d{1,2})日)?', seg)
+        if not w: continue
+        y, pm = int(d[:4]), int(d[5:7])
+        m1 = int(w.group(1)); y1 = y + 1 if m1 < pm - 6 else y
+        m2 = int(w.group(3)) if w.group(3) else m1
+        d2 = int(w.group(4)) if w.group(4) else int(w.group(2))
+        y2 = y1 + 1 if m2 < m1 else y1
+        vm = re.search(r'(国事访问|正式访问|工作访问)', seg)
+        vt = vm.group(1) if vm else ('来华出席' if '出席' in t else '会见/会谈(双边)')
+        try:
+            first = f'{y1}-{m1:02d}-{int(w.group(2)):02d}'; last = f'{y2}-{m2:02d}-{d2:02d}'
+        except ValueError: continue
+        recs.append({'country': country, 'leader_title': title, 'name': name,
+                     'first': first, 'last': last, 'visit_type': vt, 'n_articles': 1})
+    # 同一访问多次预告去重 (国家+名字前2字+月)
+    seen, out = set(), []
+    for r in sorted(recs, key=lambda x: x['first']):
+        if r['first'] < '2013': continue  # 数据集口径 2013 起
+        k = (r['country'], r['name'][:2], r['first'][:7])
+        if k in seen: continue
+        seen.add(k); out.append(r)
+    df = pd.DataFrame(out)
+    df.to_csv(f'{BF}/inbound_cn_announce.csv', index=False)
+    print(f'announce: 预告记录 {len(df)} 条 -> {BF}/inbound_cn_announce.csv')
+    if len(df):
+        for y, c in df['first'].str[:4].value_counts().sort_index().items(): print(f'  {y}: {c}')
+    return df
+
+
+def summits():
+    """峰会与会名单补充 (data/summit_attendees.csv, 行级标注出处):
+    纯参会/双边通稿未被快照捕获的领导人。与 master 按 (国家前2字, 名字前2字, ±12天) 去重 —
+    峰会周双边常跨月(如 FOCAC 前的 08-31 会见), 月度键会漏判。"""
+    fn = 'data/summit_attendees.csv'
     master_fn = 'out/inbound_cn_master.csv'
-    bf = pd.read_csv(f'{BF}/inbound_cn_backfill.csv')
-    bf['source'] = 'PRC MFA zyxw wayback backfill'
-    master = pd.read_csv(master_fn) if os.path.exists(master_fn) else pd.DataFrame()
-    if len(master):
-        key = set(master['country'] + master['name'] + master['first'].astype(str).str[:7])
-        bf = bf[~(bf['country'] + bf['name'] + bf['first'].str[:7]).isin(key)]
-    out = pd.concat([master, bf], ignore_index=True).sort_values('first')
+    sa = pd.read_csv(fn)
+    master = pd.read_csv(master_fn)
+    md = [(r['country'][:2], str(r['name'])[:2], datetime.fromisoformat(str(r['first'])))
+          for _, r in master.iterrows()]
+    add = []
+    for _, r in sa.iterrows():
+        d = datetime.fromisoformat(r['first'])
+        if any(c == r['country'][:2] and n == r['name'][:2] and abs((d - t).days) <= 12
+               for c, n, t in md): continue
+        add.append({'country': r['country'], 'leader_title': r['leader_title'], 'name': r['name'],
+                    'first': r['first'], 'last': r['last'], 'visit_type': '来华出席',
+                    'n_articles': 0, 'source': f"summit supplement ({r['summit']})"})
+    out = pd.concat([master, pd.DataFrame(add)], ignore_index=True).sort_values('first')
     out.to_csv(master_fn, index=False)
-    print(f'merge: 回填新增 {len(bf)} 条, master 累计 {len(out)} 条')
+    print(f'summits: 名单 {len(sa)} 行, 与 master 去重后新增 {len(add)} 条, 累计 {len(out)} 条')
     return out
+
+
+def merge():
+    """回填/预告并入 out/inbound_cn_master.csv (已有记录优先, country+名字前2字+月 去重)"""
+    master_fn = 'out/inbound_cn_master.csv'
+    master = pd.read_csv(master_fn) if os.path.exists(master_fn) else pd.DataFrame()
+    srcs = [(f'{BF}/inbound_cn_backfill.csv', 'PRC MFA zyxw wayback backfill'),
+            (f'{BF}/inbound_cn_announce.csv', 'PRC MFA zyxw wayback backfill (预告)')]
+    for fn, tag in srcs:
+        if not os.path.exists(fn): continue
+        bf = pd.read_csv(fn)
+        bf['source'] = tag
+        if len(master):
+            key = set(master['country'] + master['name'].str[:2] + master['first'].astype(str).str[:7])
+            bf = bf[~(bf['country'] + bf['name'].str[:2] + bf['first'].str[:7]).isin(key)]
+        master = pd.concat([master, bf], ignore_index=True).sort_values('first')
+        print(f'merge: {os.path.basename(fn)} 新增 {len(bf)} 条')
+    master.to_csv(master_fn, index=False)
+    print(f'master 累计 {len(master)} 条')
+    return master
 
 
 if __name__ == '__main__':
@@ -216,4 +294,6 @@ if __name__ == '__main__':
     if stage in ('inventory', 'all'): inventory()
     if stage in ('fetch', 'all'): fetch_all()
     if stage in ('extract', 'all'): extract(years)
+    if stage in ('announce', 'all'): announce()
     if stage in ('merge', 'all'): merge()
+    if stage in ('summits', 'all'): summits()
