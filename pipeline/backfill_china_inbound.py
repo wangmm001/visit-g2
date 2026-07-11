@@ -96,7 +96,7 @@ def fetch_one(k, ts, u):
     return False
 
 
-def fetch_all(max_n=None, workers=10):
+def fetch_all(max_n=None, workers=3):  # Wayback 按 IP 限并发, >4 反而全线变慢
     """抓 Wayback 原始正文(id_模式), 小并发+429退避, 断点续传"""
     from concurrent.futures import ThreadPoolExecutor
     todo = [ln.rstrip('\n').split('\t') for ln in open(f'{BF}/inventory.tsv')]
