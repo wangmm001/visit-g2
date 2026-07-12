@@ -5,3 +5,7 @@ pipeline/out/mfa_list_*.html
 pipeline/backfill/
 backfill/
 *.log
+pipeline/out/wiki_*.html
+pipeline/out/us_inb_*.html
+pipeline/travels/
+pipeline/visits/

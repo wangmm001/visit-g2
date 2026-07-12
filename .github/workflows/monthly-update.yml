@@ -34,7 +34,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          # 白名单式提交: 只收数据产物, 不收抓取缓存/嵌套克隆仓 (travels/visits gitlink 事故教训)
+          git add inbound_cn_master.csv 'pipeline/out/*.csv' 'pipeline/out/validation_*.txt'
           if git diff --cached --quiet; then
             echo "无数据变更, 跳过提交"
           else

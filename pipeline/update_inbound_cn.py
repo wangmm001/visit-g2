@@ -98,8 +98,9 @@ def main(since=None):
     if len(master) and len(new):
         key = master['country']+master['name']+master['first'].astype(str).str[:7]
         new = new[~(new['country']+new['name']+new['first'].str[:7]).isin(set(key))]
+    # source 只打在新增行上 — 整列覆写会抹掉回填六通道的行级溯源 (2026-07 数据流事故教训)
+    if len(new): new['source'] = 'PRC MFA zyxw pipeline'
     out = pd.concat([master,new],ignore_index=True).sort_values('first') if len(master) else new
-    out['source']='PRC MFA zyxw pipeline'
     out.to_csv(master_fn, index=False)
     print(f'=> 新增 {len(new)} 条, 累计 {len(out)} 条 ({master_fn})')
     return out
