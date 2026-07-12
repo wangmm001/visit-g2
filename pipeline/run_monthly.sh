@@ -7,4 +7,5 @@ python3 update_outbound.py
 python3 update_inbound_us.py
 python3 update_inbound_cn.py
 python3 validate.py | tee out/validation_$(date +%Y%m).txt
+cp out/inbound_cn_master.csv ../inbound_cn_master.csv   # 根目录副本与 out/ 保持同步
 echo "=== 完成, 产出在 out/ ==="

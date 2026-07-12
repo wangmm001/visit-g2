@@ -1,0 +1,52 @@
+# G2 领导人互访数据库 · 月度自动更新
+# 数据流: 国务院历史办 + 维基百科 + 外交部 zyxw -> pipeline/out/*.csv -> 直接 commit 回 master
+# 触发: 每月 1 日 22:00 UTC (北京时间 2 日 06:00) + 手动 workflow_dispatch
+name: monthly-update
+
+on:
+  schedule:
+    - cron: '0 22 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run monthly pipeline
+        run: bash pipeline/run_monthly.sh
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无数据变更, 跳过提交"
+          else
+            git commit -m "data: monthly update $(date -u +%Y-%m) [skip ci]"
+            git push
+          fi
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ github.run_number }}
+          path: pipeline/out/validation_*.txt
+          if-no-files-found: ignore
+          retention-days: 90
