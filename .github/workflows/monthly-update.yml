@@ -1,7 +1,7 @@
 # G2 领导人互访数据库 · 月度自动更新
 # 数据流: 国务院历史办 + 维基百科 + 外交部 zyxw -> pipeline/out/*.csv -> 直接 commit 回 master
 # 触发: 每月 1 日 22:00 UTC (北京时间 2 日 06:00) + 手动 workflow_dispatch
-name: monthly-update
+name: monthly-update  # G2 数据流
 
 on:
   schedule:
