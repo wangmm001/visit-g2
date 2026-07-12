@@ -1,11 +1,13 @@
-# G2 领导人互访数据库 · 月度自动更新
+# G2 领导人互访数据库 · 每日自动更新
 # 数据流: 国务院历史办 + 维基百科 + 外交部 zyxw -> pipeline/out/*.csv -> 直接 commit 回 master
-# 触发: 每月 1 日 22:00 UTC (北京时间 2 日 06:00) + 手动 workflow_dispatch
-name: monthly-update  # G2 数据流
+#        -> 下游 global-pulse 的 daily-data workflow (00:30 UTC) 克隆本仓构建 g2_visits.json 图层
+# 触发: 每日 23:45 UTC (北京 07:45, 早于 global-pulse 08:30) + 手动 workflow_dispatch
+# 沿革: 原为每月 1 日跑批, 2026-07 并入 global-pulse 每日数据流后改为每日 (增量窗口自适应, 每日跑量很小)
+name: daily-update  # G2 数据流
 
 on:
   schedule:
-    - cron: '0 22 1 * *'
+    - cron: '45 23 * * *'
   workflow_dispatch:
 
 permissions:

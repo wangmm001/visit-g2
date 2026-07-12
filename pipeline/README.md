@@ -8,9 +8,9 @@
 pip install -r requirements.txt
 bash run_monthly.sh          # 每月跑一次 (crontab: 0 6 1 * * )
 ```
-已接入 GitHub Actions 月度数据流 (.github/workflows/monthly-update.yml):
-每月 1 日 22:00 UTC 自动跑全管线, 数据有变更则由 github-actions[bot] 直接 commit 回 master,
-validate 报告存 out/validation_YYYYMM.txt 并上传为 run artifact (留 90 天)。手动触发: gh workflow run monthly-update。
+已接入 GitHub Actions 每日数据流 (.github/workflows/daily-update.yml):
+每日 23:45 UTC 自动跑全管线 (2026-07 起并入 global-pulse 每日数据流), 数据有变更则由 github-actions[bot] 直接 commit 回 master,
+validate 报告存 out/validation_YYYYMM.txt 并上传为 run artifact (留 90 天)。手动触发: gh workflow run daily-update。
 
 ## 脚本
 | 文件 | 功能 | 数据源 | 备注 |
