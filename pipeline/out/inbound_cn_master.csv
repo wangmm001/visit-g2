@@ -21,8 +21,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 埃塞俄比亚,总理,海尔马里亚姆,2013-06-13,2013-06-14,会见/会谈(双边),2,gov.cn ldhd wayback backfill
 越南,国家主席,张晋创,2013-06-19,2013-06-20,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 韩国,总统,朴槿惠,2013-06-29,2013-06-29,国事访问,1,gov.cn ldhd wayback backfill
-马其顿,总理,格鲁埃夫斯基,2013-07-02,2013-07-02,来华出席,1,gov.cn ldhd wayback backfill
 罗马尼亚,总理,蓬塔,2013-07-02,2013-07-02,来华出席,1,gov.cn ldhd wayback backfill
+马其顿,总理,格鲁埃夫斯基,2013-07-02,2013-07-02,来华出席,1,gov.cn ldhd wayback backfill
 巴基斯坦,总理,谢里夫,2013-07-04,2013-07-04,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 尼日利亚,总统,乔纳森,2013-07-10,2013-07-11,会见/会谈(双边),2,gov.cn ldhd wayback backfill
 白俄罗斯,总统,卢卡申科,2013-07-15,2013-07-17,国事访问,1,PRC MFA zyxw wayback backfill (预告)
@@ -31,8 +31,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 汤加,首相,图伊瓦卡诺,2013-07-22,2013-07-22,来华出席,1,gov.cn ldhd wayback backfill
 肯尼亚,总统,肯雅塔,2013-08-19,2013-08-19,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 牙买加,总理,辛普森,2013-08-22,2013-08-22,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-塞尔维亚,总统,尼科利奇,2013-08-26,2013-08-26,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 新加坡,总理,李显龙,2013-08-26,2013-08-26,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+塞尔维亚,总统,尼科利奇,2013-08-26,2013-08-26,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 巴林,国王,哈马德,2013-09-16,2013-09-16,来华出席,1,gov.cn ldhd wayback backfill
 约旦,国王,阿卜杜拉二世,2013-09-18,2013-09-18,会见/会谈(双边),2,gov.cn ldhd wayback backfill
 委内瑞拉,总统,马杜罗,2013-09-22,2013-09-22,会见/会谈(双边),1,gov.cn ldhd wayback backfill
@@ -60,9 +60,9 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 以色列,总统,佩雷斯,2014-04-08,2014-04-08,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 老挝,总理,通邢,2014-04-08,2014-04-11,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 以色列国,总统,佩雷斯,2014-04-08,2014-04-10,国事访问,1,PRC MFA zyxw wayback backfill (预告)
+巴基斯坦,总理,谢里夫,2014-04-11,2014-04-11,来华出席,1,PRC MFA zyxw wayback backfill
 澳大利亚,总理,阿博特,2014-04-11,2014-04-11,来华出席,1,PRC MFA zyxw wayback backfill
 韩国,总理,郑烘原,2014-04-11,2014-04-11,来华出席,1,PRC MFA zyxw wayback backfill
-巴基斯坦,总理,谢里夫,2014-04-11,2014-04-11,来华出席,1,PRC MFA zyxw wayback backfill
 丹麦,女王,Margrethe II,2014-04-25,2014-04-25,会见/会谈(双边),1,PRC MFA /eng/ wayback backfill
 土库曼斯坦,总统,别尔德穆哈梅多夫,2014-05-13,2014-05-13,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 葡萄牙,总统,席尔瓦,2014-05-16,2014-05-16,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
@@ -70,22 +70,22 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 阿富汗,总统,卡尔扎伊,2014-05-19,2014-05-19,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 哈萨克斯坦,总统,纳扎尔巴耶夫,2014-05-19,2014-05-19,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 吉尔吉斯斯坦,总统,阿塔姆巴耶夫,2014-05-19,2014-05-19,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-巴基斯坦,总统,侯赛因,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
-柬埔寨,首相,洪森,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
-斯里兰卡,总统,拉贾帕克萨,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
-伊拉克,总理,马利基,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
-蒙古国,总统,额勒贝格道尔吉,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
 乌兹别克斯坦,总统,卡里莫夫,2014-05-20,2014-05-20,国事访问,1,PRC MFA zyxw wayback backfill
-伊朗,总统,鲁哈尼,2014-05-20,2014-05-22,国事访问,1,PRC MFA zyxw wayback backfill (预告)
 俄罗斯,总统,普京,2014-05-20,2014-05-20,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
+伊朗,总统,鲁哈尼,2014-05-20,2014-05-22,国事访问,1,PRC MFA zyxw wayback backfill (预告)
+蒙古国,总统,额勒贝格道尔吉,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
+巴基斯坦,总统,侯赛因,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
+斯里兰卡,总统,拉贾帕克萨,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
+柬埔寨,首相,洪森,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
+伊拉克,总理,马利基,2014-05-20,2014-05-21,来华出席,0,summit supplement (CICA上海2014)
 阿塞拜疆,总统,阿利耶夫,2014-05-21,2014-05-21,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 马来西亚,总理,纳吉布,2014-05-29,2014-05-29,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 科威特,首相,贾比尔,2014-06-03,2014-06-04,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 孟加拉国,总理,哈西娜,2014-06-10,2014-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 意大利,总理,伦齐,2014-06-12,2014-06-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 刚果共和国,总统,萨苏,2014-06-12,2014-06-13,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-缅甸,总统,登盛,2014-06-27,2014-06-30,国事访问,1,PRC MFA zyxw wayback backfill (预告)
 缅甸,总统,吴登盛,2014-06-27,2014-06-27,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+缅甸,总统,登盛,2014-06-27,2014-06-30,国事访问,1,PRC MFA zyxw wayback backfill (预告)
 德国,总理,默克尔,2014-07-07,2014-07-07,国事访问,1,PRC MFA zyxw wayback backfill
 埃塞俄比亚,总统,穆拉图,2014-07-08,2014-07-09,来华出席,2,PRC MFA zyxw wayback backfill
 斐济,总统,奈拉蒂考,2014-08-17,2014-08-17,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
@@ -104,24 +104,24 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 缅甸,总统,U Thein Sein,2014-11-08,2014-11-08,会见/会谈(双边),1,PRC MFA /eng/ wayback backfill
 巴基斯坦,总理,Nawaz Sharif,2014-11-08,2014-11-08,国事访问,1,PRC MFA /eng/ wayback backfill
 泰国,总理,巴育,2014-11-09,2014-11-09,来华出席,1,PRC MFA zyxw wayback backfill
-老挝,国家主席,朱马里,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-孟加拉国,总统,哈米德,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-新加坡,总理,李显龙,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-蒙古国,总统,额勒贝格道尔吉,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-马来西亚,总理,纳吉布,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-巴布亚新几内亚,总理,奥尼尔,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-印度尼西亚,总统,佐科,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-新西兰,总理,约翰·基,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-俄罗斯,总统,普京,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-菲律宾,总统,阿基诺,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-韩国,总统,朴槿惠,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-文莱,苏丹,哈桑纳尔,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
-澳大利亚,总理,阿博特,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
 日本,首相,安倍晋三,2014-11-10,2014-11-10,来华出席,1,PRC MFA zyxw wayback backfill
+澳大利亚,总理,阿博特,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+文莱,苏丹,哈桑纳尔,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+韩国,总统,朴槿惠,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+菲律宾,总统,阿基诺,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+俄罗斯,总统,普京,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+新西兰,总理,约翰·基,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+蒙古国,总统,额勒贝格道尔吉,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+巴布亚新几内亚,总理,奥尼尔,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+马来西亚,总理,纳吉布,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
 越南,国家主席,张晋创,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+新加坡,总理,李显龙,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+孟加拉国,总统,哈米德,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+老挝,国家主席,朱马里,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+印度尼西亚,总统,佐科,2014-11-10,2014-11-11,来华出席,0,summit supplement (APEC北京2014)
+秘鲁,总统,乌马拉,2014-11-12,2014-11-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 智利,总统,巴切莱特,2014-11-12,2014-11-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 美国,总统,奥巴马,2014-11-12,2014-11-12,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-秘鲁,总统,乌马拉,2014-11-12,2014-11-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 墨西哥,总统,培尼亚,2014-11-13,2014-11-13,来华出席,1,PRC MFA zyxw wayback backfill
 南非,总统,祖马,2014-12-03,2014-12-06,国事访问,1,PRC MFA zyxw wayback backfill (预告)
 爱尔兰,总统,Michael Higgins,2014-12-09,2014-12-09,会见/会谈(双边),1,PRC MFA /eng/ wayback backfill
@@ -164,23 +164,23 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 瓦努阿图,总理,基尔曼,2015-09-01,2015-09-01,来华出席,1,PRC MFA zyxw wayback backfill
 苏丹,总统,巴希尔,2015-09-01,2015-09-01,来华出席,1,PRC MFA zyxw wayback backfill
 委内瑞拉,总统,马杜罗,2015-09-01,2015-09-01,来华出席,1,PRC MFA zyxw wayback backfill
-东帝汶,总统,鲁瓦克,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-吉尔吉斯斯坦,总统,阿塔姆巴耶夫,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-俄罗斯,总统,普京,2015-09-02,2015-09-03,来华出席,2,PRC MFA zyxw wayback backfill
-乌兹别克斯坦,总统,卡里莫夫,2015-09-02,2015-09-03,来华出席,2,PRC MFA zyxw wayback backfill
-塔吉克斯坦,总统,拉赫蒙,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-白俄罗斯,总统,卢卡申科,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-埃及,总统,塞西,2015-09-02,2015-09-02,来华出席,2,PRC MFA zyxw wayback backfill
-巴基斯坦,总统,侯赛因,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 韩国,总统,朴槿惠,2015-09-02,2015-09-02,来华出席,2,PRC MFA zyxw wayback backfill
+巴基斯坦,总统,侯赛因,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+埃及,总统,塞西,2015-09-02,2015-09-02,来华出席,2,PRC MFA zyxw wayback backfill
+白俄罗斯,总统,卢卡申科,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+塔吉克斯坦,总统,拉赫蒙,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+乌兹别克斯坦,总统,卡里莫夫,2015-09-02,2015-09-03,来华出席,2,PRC MFA zyxw wayback backfill
+俄罗斯,总统,普京,2015-09-02,2015-09-03,来华出席,2,PRC MFA zyxw wayback backfill
+吉尔吉斯斯坦,总统,阿塔姆巴耶夫,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+东帝汶,总统,鲁瓦克,2015-09-02,2015-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 越南,国家主席,张晋创,2015-09-03,2015-09-03,来华出席,1,PRC MFA zyxw wayback backfill
 蒙古国,总统,额勒贝格道尔吉,2015-09-03,2015-09-03,来华出席,1,PRC MFA zyxw wayback backfill
-捷克,总统,泽曼,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-波黑,主席,团轮值主席乔维奇,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-刚果民主共和国,总统,卡比拉,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-缅甸,总统,登盛,2015-09-04,2015-09-04,来华出席,2,PRC MFA zyxw wayback backfill
 埃塞俄比亚,总理,海尔马里亚姆,2015-09-04,2015-09-04,来华出席,2,PRC MFA zyxw wayback backfill
+缅甸,总统,登盛,2015-09-04,2015-09-04,来华出席,2,PRC MFA zyxw wayback backfill
 南非,总统,祖马,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+波黑,主席,团轮值主席乔维奇,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+捷克,总统,泽曼,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+刚果民主共和国,总统,卡比拉,2015-09-04,2015-09-04,来华出席,1,PRC MFA zyxw wayback backfill
 约旦,国王,阿卜杜拉二世,2015-09-09,2015-09-09,来华出席,1,PRC MFA zyxw wayback backfill
 毛里塔尼亚,总统,阿齐兹,2015-09-14,2015-09-14,国事访问,1,PRC MFA zyxw wayback backfill
 克罗地亚,总统,基塔罗维奇,2015-10-15,2015-10-15,国事访问,1,PRC MFA zyxw wayback backfill
@@ -192,9 +192,9 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 法国,总统,奥朗德,2015-11-02,2015-11-03,国事访问,1,PRC MFA zyxw wayback backfill (预告)
 蒙古国,总统,额勒贝格道尔吉,2015-11-10,2015-11-10,国事访问,1,PRC MFA zyxw wayback backfill
 土库曼斯坦,总统,别尔德穆哈梅多夫,2015-11-12,2015-11-12,国事访问,1,PRC MFA zyxw wayback backfill
-黑山,总理,久卡诺维奇,2015-11-26,2015-11-26,来华出席,1,PRC MFA zyxw wayback backfill
 塞尔维亚,总理,武契奇,2015-11-26,2015-11-27,来华出席,2,PRC MFA zyxw wayback backfill
 拉脱维亚,总理,斯特劳尤马,2015-11-26,2015-11-26,来华出席,1,PRC MFA zyxw wayback backfill
+黑山,总理,久卡诺维奇,2015-11-26,2015-11-26,来华出席,1,PRC MFA zyxw wayback backfill
 捷克,总理,索博特卡,2015-11-27,2015-11-27,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 法国,总统,Francois Hollande,2015-11-30,2015-11-30,国事访问,1,PRC MFA /eng/ wayback backfill
 阿塞拜疆,总统,阿利耶夫,2015-12-10,2015-12-10,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
@@ -205,8 +205,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 俄罗斯,总理,梅德韦杰夫,2015-12-18,2015-12-18,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 伊拉克,总理,阿巴迪,2015-12-22,2015-12-22,正式访问,2,PRC MFA zyxw wayback backfill
 尼泊尔,总理,奥利,2016-03-21,2016-03-21,正式访问,2,PRC MFA zyxw wayback backfill
-老挝,总理,通邢,2016-03-23,2016-03-23,来华出席,1,PRC MFA zyxw wayback backfill
 柬埔寨,首相,洪森,2016-03-23,2016-03-23,来华出席,1,PRC MFA zyxw wayback backfill
+老挝,总理,通邢,2016-03-23,2016-03-23,来华出席,1,PRC MFA zyxw wayback backfill
 俄罗斯,总统,办公厅主任伊万诺夫,2016-03-25,2016-03-25,国事访问,1,PRC MFA zyxw wayback backfill
 瑞士,联邦主席,施奈德,2016-04-07,2016-04-08,国事访问,2,PRC MFA zyxw wayback backfill
 斯里兰卡,总理,维克勒马辛哈,2016-04-07,2016-04-08,正式访问,2,PRC MFA zyxw wayback backfill
@@ -229,29 +229,29 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 欧洲理事会,主席,图斯克,2016-07-12,2016-07-13,正式访问,2,PRC MFA zyxw wayback backfill
 美国,总统,国家安全事务助理赖斯,2016-07-25,2016-07-25,来华出席,1,PRC MFA zyxw wayback backfill
 加拿大,总理,特鲁多,2016-08-30,2016-08-31,正式访问,4,PRC MFA zyxw wayback backfill
-新加坡,总理,李显龙,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-巴西,总统,特梅尔,2016-09-02,2016-09-02,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-老挝,国家主席,本扬,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
-塞内加尔,总统,萨勒,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 印度尼西亚,总统,佐科,2016-09-02,2016-09-02,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+塞内加尔,总统,萨勒,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+老挝,国家主席,本扬,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
+巴西,总统,特梅尔,2016-09-02,2016-09-02,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
+新加坡,总理,李显龙,2016-09-02,2016-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 阿根廷,总统,马克里,2016-09-03,2016-09-03,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 南非,总统,祖马,2016-09-03,2016-09-03,来华出席,1,PRC MFA zyxw wayback backfill
 土耳其,总统,埃尔多安,2016-09-03,2016-09-03,来华出席,1,PRC MFA zyxw wayback backfill
-泰国,总理,巴育,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-西班牙,首相,拉霍伊,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-哈萨克斯坦,总统,纳扎尔巴耶夫,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-埃及,总统,塞西,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-乍得,总统,代比,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+印度,总理,莫迪,2016-09-04,2016-09-04,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+韩国,总统,朴槿惠,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+墨西哥,总统,培尼亚,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+俄罗斯,总统,普京,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+美国,总统,奥巴马,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+英国,首相,特蕾莎·梅,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+意大利,总理,伦齐,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
 欧盟委员会,主席,容克,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
 欧洲理事会,主席,图斯克,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
 澳大利亚,总理,特恩布尔,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-意大利,总理,伦齐,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-英国,首相,特蕾莎·梅,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-美国,总统,奥巴马,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-俄罗斯,总统,普京,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-墨西哥,总统,培尼亚,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-韩国,总统,朴槿惠,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
-印度,总理,莫迪,2016-09-04,2016-09-04,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+乍得,总统,代比,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+埃及,总统,塞西,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+哈萨克斯坦,总统,纳扎尔巴耶夫,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+西班牙,首相,拉霍伊,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
+泰国,总理,巴育,2016-09-04,2016-09-05,来华出席,0,summit supplement (G20杭州2016)
 日本,首相,安倍晋三,2016-09-05,2016-09-05,来华出席,1,PRC MFA zyxw wayback backfill
 英国,首相,特雷莎·梅,2016-09-05,2016-09-05,来华出席,1,PRC MFA zyxw wayback backfill
 德国,总理,默克尔,2016-09-05,2016-09-05,来华出席,1,PRC MFA zyxw wayback backfill
@@ -279,32 +279,32 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 尼泊尔,总理,普拉昌达,2017-03-27,2017-03-27,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 马达加斯加,总统,埃里,2017-03-27,2017-03-27,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 塞尔维亚,总统,尼科利奇,2017-03-30,2017-03-30,国事访问,1,PRC MFA zyxw wayback backfill
-缅甸,总统,廷觉,2017-04-10,2017-04-10,国事访问,1,PRC MFA zyxw wayback backfill
 挪威,首相,索尔贝格,2017-04-10,2017-04-10,国事访问,1,PRC MFA zyxw wayback backfill
+缅甸,总统,廷觉,2017-04-10,2017-04-10,国事访问,1,PRC MFA zyxw wayback backfill
 圣多美和普林西比,总理,特罗瓦达,2017-04-12,2017-04-14,正式访问,2,PRC MFA zyxw wayback backfill
 丹麦,首相,拉斯穆森,2017-05-03,2017-05-04,正式访问,3,PRC MFA zyxw wayback backfill
 越南,国家主席,陈大光,2017-05-11,2017-05-12,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 蒙古国,总理,额尔登巴特,2017-05-12,2017-05-12,来华出席,1,PRC MFA zyxw wayback backfill
 波兰,总理,希德沃,2017-05-12,2017-05-12,来华出席,1,PRC MFA zyxw wayback backfill
-乌兹别克斯坦,总统,米尔济约耶夫,2017-05-12,2017-05-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 捷克,总统,泽曼,2017-05-12,2017-05-12,来华出席,1,PRC MFA zyxw wayback backfill
-智利,总统,巴切莱特,2017-05-13,2017-05-14,国事访问,2,PRC MFA zyxw wayback backfill
-土耳其,总统,埃尔多安,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
-西班牙,首相,拉霍伊,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
-老挝,国家主席,本扬,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
-马来西亚,总理,纳吉布,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
-巴基斯坦,总理,谢里夫,2017-05-13,2017-05-13,来华出席,2,PRC MFA zyxw wayback backfill
-希腊,总理,齐普拉斯,2017-05-13,2017-05-13,来华出席,2,PRC MFA zyxw wayback backfill
+乌兹别克斯坦,总统,米尔济约耶夫,2017-05-12,2017-05-12,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 匈牙利,总理,欧尔班,2017-05-13,2017-05-13,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-俄罗斯,总统,普京,2017-05-14,2017-05-14,来华出席,2,PRC MFA zyxw wayback backfill
-哈萨克斯坦,总统,纳扎尔巴耶夫,2017-05-14,2017-05-14,来华出席,1,PRC MFA zyxw wayback backfill
-瑞士,联邦主席,洛伊特哈德,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
-白俄罗斯,总统,卢卡申科,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
-吉尔吉斯斯坦,总统,阿坦巴耶夫,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
-印度尼西亚,总统,佐科,2017-05-14,2017-05-14,来华出席,1,PRC MFA zyxw wayback backfill
-埃塞俄比亚,总理,海尔马里亚姆,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
-缅甸,国务资政,昂山素季,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+希腊,总理,齐普拉斯,2017-05-13,2017-05-13,来华出席,2,PRC MFA zyxw wayback backfill
+巴基斯坦,总理,谢里夫,2017-05-13,2017-05-13,来华出席,2,PRC MFA zyxw wayback backfill
+马来西亚,总理,纳吉布,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
+西班牙,首相,拉霍伊,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
+土耳其,总统,埃尔多安,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
+智利,总统,巴切莱特,2017-05-13,2017-05-14,国事访问,2,PRC MFA zyxw wayback backfill
+老挝,国家主席,本扬,2017-05-13,2017-05-13,来华出席,1,PRC MFA zyxw wayback backfill
 塞尔维亚,总理,武契奇,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+缅甸,国务资政,昂山素季,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+印度尼西亚,总统,佐科,2017-05-14,2017-05-14,来华出席,1,PRC MFA zyxw wayback backfill
+吉尔吉斯斯坦,总统,阿坦巴耶夫,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+埃塞俄比亚,总理,海尔马里亚姆,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+瑞士,联邦主席,洛伊特哈德,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
+哈萨克斯坦,总统,纳扎尔巴耶夫,2017-05-14,2017-05-14,来华出席,1,PRC MFA zyxw wayback backfill
+俄罗斯,总统,普京,2017-05-14,2017-05-14,来华出席,2,PRC MFA zyxw wayback backfill
+白俄罗斯,总统,卢卡申科,2017-05-14,2017-05-15,来华出席,0,summit supplement (一带一路论坛2017)
 肯尼亚,总统,肯雅塔,2017-05-15,2017-05-16,来华出席,2,PRC MFA zyxw wayback backfill
 菲律宾,总统,杜特尔特,2017-05-15,2017-05-15,来华出席,3,PRC MFA zyxw wayback backfill
 意大利,总理,真蒂洛尼,2017-05-16,2017-05-16,来华出席,2,PRC MFA zyxw wayback backfill
@@ -313,8 +313,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 柬埔寨,首相,洪森,2017-05-17,2017-05-17,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 阿根廷,总统,马克里,2017-05-17,2017-05-17,国事访问,2,PRC MFA zyxw wayback backfill
 卢森堡,首相,贝泰尔,2017-06-14,2017-06-14,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-芬兰,总理,西比莱,2017-06-26,2017-06-26,来华出席,1,PRC MFA zyxw wayback backfill
 瑞典,首相,勒文,2017-06-26,2017-06-26,来华出席,1,PRC MFA zyxw wayback backfill
+芬兰,总理,西比莱,2017-06-26,2017-06-26,来华出席,1,PRC MFA zyxw wayback backfill
 巴勒斯坦国,总统,阿巴斯,2017-07-18,2017-07-19,国事访问,2,PRC MFA zyxw wayback backfill
 塔吉克斯坦,总统,拉赫蒙,2017-08-31,2017-08-31,国事访问,1,PRC MFA zyxw wayback backfill
 巴西,总统,特梅尔,2017-09-01,2017-09-01,国事访问,3,PRC MFA zyxw wayback backfill
@@ -357,10 +357,10 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 塔吉克斯坦,总统,拉赫蒙,2018-06-09,2018-06-09,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 印度,总理,莫迪,2018-06-09,2018-06-09,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 吉尔吉斯斯坦,总统,热恩别科夫,2018-06-09,2018-06-10,来华出席,0,summit supplement (上合青岛2018)
+白俄罗斯,总统,卢卡申科,2018-06-10,2018-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+阿富汗,总统,加尼,2018-06-10,2018-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 蒙古国,总统,巴特图勒嘎,2018-06-10,2018-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 伊朗,总统,鲁哈尼,2018-06-10,2018-06-10,国事访问,1,PRC MFA zyxw wayback backfill
-阿富汗,总统,加尼,2018-06-10,2018-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-白俄罗斯,总统,卢卡申科,2018-06-10,2018-06-10,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 玻利维亚,总统,莫拉莱斯,2018-06-19,2018-06-19,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 朝鲜,委员长,金正恩,2018-06-20,2018-06-20,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 巴布亚新几内亚,总理,奥尼尔,2018-06-21,2018-06-21,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
@@ -368,10 +368,31 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 马来西亚,总理,马哈蒂尔,2018-08-20,2018-08-20,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 索马里,总统,穆罕默德,2018-08-31,2018-08-31,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 博茨瓦纳,总统,马西西,2018-08-31,2018-08-31,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-赞比亚,总统,伦古,2018-09-01,2018-09-01,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 几内亚,总统,孔戴,2018-09-01,2018-09-01,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+赞比亚,总统,伦古,2018-09-01,2018-09-01,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 埃及,总统,塞西,2018-09-01,2018-09-02,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-尼日尔,总统,伊素福,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+冈比亚,总统,巴罗,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+安哥拉,总统,洛伦索,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+贝宁,总统,塔隆,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+刚果民主共和国,总理,奇巴拉,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+肯尼亚,总统,肯雅塔,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+赤道几内亚,总统,奥比昂,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+多哥,总统,纳辛贝,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+刚果共和国,总统,萨苏,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+吉布提,总统,盖莱,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+利比里亚,总统,维阿,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+加纳,总统,阿库福-阿多,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+津巴布韦,总统,姆南加古瓦,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+加蓬,总统,邦戈,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+科摩罗,总统,阿苏马尼,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+阿尔及利亚,总理,乌叶海亚,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+佛得角,总理,科雷亚·席尔瓦,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+布基纳法索,总统,卡波雷,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+博茨瓦纳,总统,卡马,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+几内亚比绍,总统,瓦斯,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+喀麦隆,总统,比亚,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+中非共和国,总统,图瓦德拉,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+卢旺达,总统,卡加梅,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 马拉维,总统,穆塔里卡,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 马里,总统,凯塔,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 塞内加尔,总统,萨勒,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
@@ -384,53 +405,32 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 南苏丹,总统,基尔,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 乌干达,总统,穆塞韦尼,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 突尼斯,总理,查希德,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-中非共和国,总统,图瓦德拉,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
+乍得,总统,代比,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 摩洛哥,首相,欧斯曼尼,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 南非,总统,拉马福萨,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 毛里塔尼亚,总统,阿齐兹,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 毛里求斯,总理,贾格纳特,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-卢旺达,总统,卡加梅,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-乍得,总统,代比,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-喀麦隆,总统,比亚,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-利比里亚,总统,维阿,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-多哥,总统,纳辛贝,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-赤道几内亚,总统,奥比昂,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-肯尼亚,总统,肯雅塔,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-刚果共和国,总统,萨苏,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-贝宁,总统,塔隆,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-安哥拉,总统,洛伦索,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-冈比亚,总统,巴罗,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-刚果民主共和国,总理,奇巴拉,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-吉布提,总统,盖莱,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-几内亚比绍,总统,瓦斯,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-加纳,总统,阿库福-阿多,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-津巴布韦,总统,姆南加古瓦,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-加蓬,总统,邦戈,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-科摩罗,总统,阿苏马尼,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-阿尔及利亚,总理,乌叶海亚,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-佛得角,总理,科雷亚·席尔瓦,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-布基纳法索,总统,卡波雷,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-博茨瓦纳,总统,卡马,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
-坦桑尼亚,总理,马贾利瓦,2018-09-06,2018-09-06,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+尼日尔,总统,伊素福,2018-09-03,2018-09-04,来华出席,0,summit supplement (中非论坛北京2018)
 佛得角,总理,席尔瓦,2018-09-06,2018-09-06,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 莱索托,首相,塔巴内,2018-09-06,2018-09-06,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+坦桑尼亚,总理,马贾利瓦,2018-09-06,2018-09-06,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 委内瑞拉,总统,马杜罗,2018-09-14,2018-09-15,会见/会谈(双边),3,PRC MFA zyxw wayback backfill
 拉脱维亚,总统,韦约尼斯,2018-09-18,2018-09-19,来华出席,2,PRC MFA zyxw wayback backfill
 日本,首相,安倍晋三,2018-10-26,2018-10-26,正式访问,1,PRC MFA zyxw wayback backfill
 萨尔瓦多,总统,桑切斯,2018-11-01,2018-11-01,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 多米尼加,总统,梅迪纳,2018-11-02,2018-11-02,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 巴基斯坦,总理,伊姆兰·汗,2018-11-02,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-格鲁吉亚,总理,巴赫塔泽,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-越南,总理,阮春福,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-俄罗斯,总理,梅德韦杰夫,2018-11-05,2018-11-05,来华出席,1,PRC MFA zyxw wayback backfill
-老挝,总理,通伦,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
 匈牙利,总理,欧尔班,2018-11-05,2018-11-05,正式访问,1,PRC MFA zyxw wayback backfill
-埃及,总理,马德布利,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-肯尼亚,总统,肯雅塔,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-马耳他,总理,穆斯卡特,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
-捷克,总统,泽曼,2018-11-05,2018-11-05,国事访问,1,PRC MFA zyxw wayback backfill
-立陶宛,总统,格里包斯凯特,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
 克罗地亚,总理,普连科维奇,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+立陶宛,总统,格里包斯凯特,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+捷克,总统,泽曼,2018-11-05,2018-11-05,国事访问,1,PRC MFA zyxw wayback backfill
+马耳他,总理,穆斯卡特,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+肯尼亚,总统,肯雅塔,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+老挝,总理,通伦,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+俄罗斯,总理,梅德韦杰夫,2018-11-05,2018-11-05,来华出席,1,PRC MFA zyxw wayback backfill
+越南,总理,阮春福,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+格鲁吉亚,总理,巴赫塔泽,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
+埃及,总理,马德布利,2018-11-05,2018-11-05,来华出席,0,summit supplement (进博会上海2018)
 古巴,国务委员会主席,迪亚斯-卡内尔,2018-11-08,2018-11-08,国事访问,2,PRC MFA zyxw wayback backfill
 厄瓜多尔,总统,莫雷诺,2018-12-12,2018-12-13,国事访问,3,PRC MFA zyxw wayback backfill
 柬埔寨,首相,洪森,2019-01-21,2019-01-21,正式访问,1,PRC MFA zyxw wayback backfill
@@ -440,29 +440,29 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 埃塞俄比亚,总理,阿比,2019-04-24,2019-04-24,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 智利,总统,皮涅拉,2019-04-24,2019-04-24,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 蒙古国,总统,巴特图勒嘎,2019-04-24,2019-04-24,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-越南,总理,阮春福,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-巴基斯坦,总理,伊姆兰·汗,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-缅甸,国务资政,昂山素季,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-匈牙利,总理,欧尔班,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-奥地利,总理,库尔茨,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-乌兹别克斯坦,总统,米尔济约耶夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-塔吉克斯坦,总统,拉赫蒙,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-塞尔维亚,总统,武契奇,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-尼泊尔,总统,班达里,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-莫桑比克,总统,纽西,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-老挝,国家主席,本扬,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-柬埔寨,首相,洪森,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-捷克,总统,泽曼,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-塞浦路斯,总统,阿纳斯塔西亚迪斯,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-文莱,苏丹,哈桑纳尔,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-白俄罗斯,总统,卢卡申科,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-阿塞拜疆,总统,阿利耶夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-巴布亚新几内亚,总理,奥尼尔,2019-04-25,2019-04-25,国事访问,2,PRC MFA zyxw wayback backfill
-吉尔吉斯斯坦,总统,热恩别科夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
-马来西亚,总理,马哈蒂尔,2019-04-25,2019-04-25,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-埃及,总统,塞西,2019-04-25,2019-04-25,来华出席,1,PRC MFA zyxw wayback backfill
-菲律宾,总统,杜特尔特,2019-04-25,2019-04-25,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 肯尼亚,总统,肯雅塔,2019-04-25,2019-04-25,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+菲律宾,总统,杜特尔特,2019-04-25,2019-04-25,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
+埃及,总统,塞西,2019-04-25,2019-04-25,来华出席,1,PRC MFA zyxw wayback backfill
+马来西亚,总理,马哈蒂尔,2019-04-25,2019-04-25,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
+巴布亚新几内亚,总理,奥尼尔,2019-04-25,2019-04-25,国事访问,2,PRC MFA zyxw wayback backfill
+阿塞拜疆,总统,阿利耶夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+白俄罗斯,总统,卢卡申科,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+文莱,苏丹,哈桑纳尔,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+塞浦路斯,总统,阿纳斯塔西亚迪斯,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+捷克,总统,泽曼,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+柬埔寨,首相,洪森,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+吉尔吉斯斯坦,总统,热恩别科夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+莫桑比克,总统,纽西,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+尼泊尔,总统,班达里,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+塞尔维亚,总统,武契奇,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+塔吉克斯坦,总统,拉赫蒙,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+乌兹别克斯坦,总统,米尔济约耶夫,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+奥地利,总理,库尔茨,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+老挝,国家主席,本扬,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+匈牙利,总理,欧尔班,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+缅甸,国务资政,昂山素季,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+巴基斯坦,总理,伊姆兰·汗,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
+越南,总理,阮春福,2019-04-25,2019-04-27,来华出席,0,summit supplement (一带一路论坛2019)
 俄罗斯,总统,普京,2019-04-26,2019-04-26,来华出席,1,PRC MFA zyxw wayback backfill
 希腊,总理,齐普拉斯,2019-04-26,2019-04-26,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 泰国,总理,巴育,2019-04-26,2019-04-26,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
@@ -495,26 +495,26 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 苏里南,总统,鲍特瑟,2019-11-27,2019-11-27,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 萨尔瓦多,总统,布克尔,2019-12-03,2019-12-03,国事访问,2,PRC MFA zyxw wayback backfill
 密克罗尼西亚联邦,总统,帕努埃洛,2019-12-13,2019-12-13,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
-日本,首相,安倍晋三,2019-12-23,2019-12-23,来华出席,1,PRC MFA zyxw wayback backfill
 韩国,总统,文在寅,2019-12-23,2019-12-24,来华出席,2,PRC MFA zyxw wayback backfill
+日本,首相,安倍晋三,2019-12-23,2019-12-23,来华出席,1,PRC MFA zyxw wayback backfill
 老挝,总理,通伦,2020-01-06,2020-01-06,正式访问,2,PRC MFA zyxw wayback backfill
 基里巴斯,总统,马茂,2020-01-06,2020-01-06,国事访问,2,PRC MFA zyxw wayback backfill
 柬埔寨,首相,洪森,2020-02-05,2020-02-05,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
 蒙古国,总统,巴特图勒嘎,2020-02-27,2020-02-27,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 巴基斯坦,总统,阿尔维,2020-03-17,2020-03-17,会见/会谈(双边),2,PRC MFA zyxw wayback backfill
 柬埔寨,国王,西哈莫尼,2020-11-06,2020-11-06,会见/会谈(双边),1,PRC MFA zyxw wayback backfill
-新加坡,总统,哈莉玛,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-埃及,总统,塞西,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-厄瓜多尔,总统,拉索,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-阿根廷,总统,费尔南德斯,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-柬埔寨,国王,西哈莫尼,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-巴布亚新几内亚,总理,马拉佩,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-乌兹别克斯坦,总统,米尔济约耶夫,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-塔吉克斯坦,总统,拉赫蒙,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-哈萨克斯坦,总统,托卡耶夫,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-摩纳哥,亲王,阿尔贝二世,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
-卢森堡,大公,亨利,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
 俄罗斯,总统,普京,2022-02-04,2022-02-04,来华出席,1,PRC MFA zyxw wayback backfill
+卢森堡,大公,亨利,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+摩纳哥,亲王,阿尔贝二世,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+哈萨克斯坦,总统,托卡耶夫,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+塔吉克斯坦,总统,拉赫蒙,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+乌兹别克斯坦,总统,米尔济约耶夫,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+新加坡,总统,哈莉玛,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+柬埔寨,国王,西哈莫尼,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+阿根廷,总统,费尔南德斯,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+厄瓜多尔,总统,拉索,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+埃及,总统,塞西,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
+巴布亚新几内亚,总理,马拉佩,2022-02-04,2022-02-06,来华出席,0,summit supplement (冬奥北京2022)
 塞尔维亚,总统,武契奇,2022-02-05,2022-02-05,来华出席,1,PRC MFA zyxw wayback backfill
 土库曼斯坦,总统,别尔德穆哈梅多夫,2022-02-05,2022-02-05,来华出席,1,PRC MFA zyxw wayback backfill
 卡塔尔,埃米尔,塔米姆,2022-02-05,2022-02-05,来华出席,1,PRC MFA zyxw wayback backfill
@@ -536,8 +536,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 巴西,总统,卢拉,2023-04-14,2023-04-15,国事访问,2,PRC MFA zyxw wayback backfill
 加蓬,总统,邦戈,2023-04-19,2023-04-19,国事访问,2,PRC MFA zyxw wayback backfill
 厄立特里亚,总统,伊萨亚斯,2023-05-15,2023-05-15,国事访问,2,PRC MFA zyxw wayback backfill
-塔吉克斯坦,总统,拉赫蒙,2023-05-17,2023-05-18,国事访问,2,PRC MFA zyxw wayback backfill
 哈萨克斯坦,总统,托卡耶夫,2023-05-17,2023-05-17,来华出席,1,PRC MFA zyxw wayback backfill
+塔吉克斯坦,总统,拉赫蒙,2023-05-17,2023-05-18,国事访问,2,PRC MFA zyxw wayback backfill
 吉尔吉斯斯坦,总统,扎帕罗夫,2023-05-18,2023-05-19,来华出席,2,PRC MFA zyxw wayback backfill
 土库曼斯坦,总统,别尔德穆哈梅多夫,2023-05-18,2023-05-18,来华出席,1,PRC MFA zyxw wayback backfill
 乌兹别克斯坦,总统,米尔济约耶夫,2023-05-18,2023-05-18,来华出席,1,PRC MFA zyxw wayback backfill
@@ -559,32 +559,32 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 柬埔寨,首相,洪玛奈,2023-09-15,2023-09-15,正式访问,1,PRC MFA zyxw wayback backfill
 赞比亚,总统,希奇莱马,2023-09-15,2023-09-15,国事访问,1,PRC MFA zyxw wayback backfill
 叙利亚,总统,巴沙尔,2023-09-22,2023-09-22,来华出席,1,PRC MFA zyxw wayback backfill
-尼泊尔,总理,普拉昌达,2023-09-23,2023-09-25,正式访问,2,PRC MFA zyxw wayback backfill
-韩国,总理,韩德洙,2023-09-23,2023-09-23,来华出席,1,PRC MFA zyxw wayback backfill
 东帝汶,总理,夏纳纳,2023-09-23,2023-09-23,来华出席,1,PRC MFA zyxw wayback backfill
+韩国,总理,韩德洙,2023-09-23,2023-09-23,来华出席,1,PRC MFA zyxw wayback backfill
+尼泊尔,总理,普拉昌达,2023-09-23,2023-09-25,正式访问,2,PRC MFA zyxw wayback backfill
 乌兹别克斯坦,总理,阿里波夫,2023-10-08,2023-10-08,来华出席,1,PRC MFA zyxw wayback backfill
-巴布亚新几内亚,总理,马拉佩,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-智利,总统,博里奇,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-莫桑比克,总理,马莱阿内,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-匈牙利,总理,欧尔班,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-埃塞俄比亚,总理,阿比,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-埃及,总理,马德布利,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-柬埔寨,首相,洪玛奈,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-乌兹别克斯坦,总统,米尔济约耶夫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-阿根廷,总统,费尔南德斯,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-塞尔维亚,总统,武契奇,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-俄罗斯,总统,普京,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-蒙古国,总统,呼日勒苏赫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-肯尼亚,总统,鲁托,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-哈萨克斯坦,总统,托卡耶夫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-印度尼西亚,总统,佐科,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-刚果共和国,总统,萨苏,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-巴基斯坦,总理,卡卡尔,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
 泰国,总理,赛塔,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+巴基斯坦,总理,卡卡尔,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+刚果共和国,总统,萨苏,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+印度尼西亚,总统,佐科,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+哈萨克斯坦,总统,托卡耶夫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+肯尼亚,总统,鲁托,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+蒙古国,总统,呼日勒苏赫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+俄罗斯,总统,普京,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+塞尔维亚,总统,武契奇,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
 土库曼斯坦,最高人民委员会主席,别尔德穆哈梅多夫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
-斯里兰卡,总统,维克拉马辛哈,2023-10-20,2023-10-20,来华出席,1,PRC MFA zyxw wayback backfill
+乌兹别克斯坦,总统,米尔济约耶夫,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+柬埔寨,首相,洪玛奈,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+埃及,总理,马德布利,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+埃塞俄比亚,总理,阿比,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+匈牙利,总理,欧尔班,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+莫桑比克,总理,马莱阿内,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+智利,总统,博里奇,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+巴布亚新几内亚,总理,马拉佩,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
+阿根廷,总统,费尔南德斯,2023-10-17,2023-10-18,来华出席,0,summit supplement (一带一路论坛2023)
 老挝,国家主席/总书记,通伦,2023-10-20,2023-10-20,来华出席,1,PRC MFA zyxw wayback backfill
 越南,国家主席,武文赏,2023-10-20,2023-10-20,来华出席,1,PRC MFA zyxw wayback backfill
+斯里兰卡,总统,维克拉马辛哈,2023-10-20,2023-10-20,来华出席,1,PRC MFA zyxw wayback backfill
 哥伦比亚,总统,佩特罗,2023-10-25,2023-10-25,国事访问,1,PRC MFA zyxw wayback backfill
 古巴,总理,马雷罗,2023-11-06,2023-11-06,来华出席,1,PRC MFA zyxw wayback backfill
 塞尔维亚,总理,布尔纳比奇,2023-11-06,2023-11-06,来华出席,1,PRC MFA zyxw wayback backfill
@@ -608,8 +608,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 赤道几内亚,总统,奥比昂,2024-05-28,2024-05-28,国事访问,1,PRC MFA zyxw wayback backfill
 埃及,总统,塞西,2024-05-29,2024-05-29,来华出席,1,PRC MFA zyxw wayback backfill
 阿联酋,总统,穆罕默德,2024-05-30,2024-05-30,国事访问,1,PRC MFA zyxw wayback backfill
-突尼斯,总统,赛义德,2024-05-31,2024-05-31,国事访问,1,PRC MFA zyxw wayback backfill
 巴林,国王,哈马德,2024-05-31,2024-05-31,国事访问,2,PRC MFA zyxw wayback backfill
+突尼斯,总统,赛义德,2024-05-31,2024-05-31,国事访问,1,PRC MFA zyxw wayback backfill
 巴基斯坦,总理,夏巴兹,2024-06-07,2024-06-07,正式访问,2,PRC MFA zyxw wayback backfill
 波兰,总统,杜达,2024-06-24,2024-06-24,国事访问,1,PRC MFA zyxw wayback backfill
 越南,总理,范明政,2024-06-26,2024-06-26,来华出席,1,PRC MFA zyxw wayback backfill
@@ -633,33 +633,33 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 科摩罗,总统,阿扎利,2024-09-02,2024-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 几内亚,总统,敦布亚,2024-09-02,2024-09-02,来华出席,1,PRC MFA zyxw wayback backfill
 刚果民主共和国,总统,齐塞克迪,2024-09-02,2024-09-02,来华出席,0,summit supplement (FOCAC北京2024)
-莱索托,首相,马特凯恩,2024-09-03,2024-09-03,来华出席,0,summit supplement (FOCAC北京2024)
+乍得,总统,穆罕默德,2024-09-03,2024-09-03,来华出席,0,summit supplement (FOCAC北京2024)
+肯尼亚,总统,鲁托,2024-09-03,2024-09-03,来华出席,1,PRC MFA zyxw wayback backfill
+津巴布韦,总统,姆南加古瓦,2024-09-03,2024-09-03,来华出席,2,PRC MFA zyxw wayback backfill
 尼日利亚,总统,提努布,2024-09-03,2024-09-03,来华出席,1,PRC MFA zyxw wayback backfill
 毛里塔尼亚,总统,加兹瓦尼,2024-09-03,2024-09-03,来华出席,1,PRC MFA zyxw wayback backfill
+莱索托,首相,马特凯恩,2024-09-03,2024-09-03,来华出席,0,summit supplement (FOCAC北京2024)
 马拉维,总统,查克维拉,2024-09-03,2024-09-03,来华出席,1,PRC MFA zyxw wayback backfill
-津巴布韦,总统,姆南加古瓦,2024-09-03,2024-09-03,来华出席,2,PRC MFA zyxw wayback backfill
-肯尼亚,总统,鲁托,2024-09-03,2024-09-03,来华出席,1,PRC MFA zyxw wayback backfill
-乍得,总统,穆罕默德,2024-09-03,2024-09-03,来华出席,0,summit supplement (FOCAC北京2024)
-赤道几内亚,总统,奥比昂,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
-坦桑尼亚,总统,哈桑,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-利比亚,总统,委员会主席曼菲,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-塞内加尔,总统,法耶,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-赞比亚,总统,希奇莱马,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-利比亚,总统委员会主席,曼菲,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
-尼日尔,总理,泽内,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
-埃及,总理,马德布利,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
 莫桑比克,总统,纽西,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-佛得角,总理,席尔瓦,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
-塞拉利昂,总统,比奥,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
-喀麦隆,总统,比亚,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-埃塞俄比亚,总理,阿比,2024-09-04,2024-09-05,来华出席,2,PRC MFA zyxw wayback backfill
 加蓬,总统,恩圭马,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
-博茨瓦纳,总统,马西西,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
-纳米比亚,总统,姆本巴,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
-圣多美和普林西比,总理,特罗瓦达,2024-09-05,2024-09-06,来华出席,2,PRC MFA zyxw wayback backfill
-加纳,总统,阿库福,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
+埃塞俄比亚,总理,阿比,2024-09-04,2024-09-05,来华出席,2,PRC MFA zyxw wayback backfill
+喀麦隆,总统,比亚,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+塞拉利昂,总统,比奥,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
+佛得角,总理,席尔瓦,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
+埃及,总理,马德布利,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
+尼日尔,总理,泽内,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
+利比亚,总统委员会主席,曼菲,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
+赞比亚,总统,希奇莱马,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+塞内加尔,总统,法耶,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+利比亚,总统,委员会主席曼菲,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+坦桑尼亚,总统,哈桑,2024-09-04,2024-09-04,来华出席,1,PRC MFA zyxw wayback backfill
+赤道几内亚,总统,奥比昂,2024-09-04,2024-09-04,来华出席,0,summit supplement (FOCAC北京2024)
 卢旺达,总统,卡加梅,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
+加纳,总统,阿库福,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
 几内亚比绍,总统,恩巴洛,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
+纳米比亚,总统,姆本巴,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
+博茨瓦纳,总统,马西西,2024-09-05,2024-09-05,来华出席,1,PRC MFA zyxw wayback backfill
+圣多美和普林西比,总理,特罗瓦达,2024-09-05,2024-09-06,来华出席,2,PRC MFA zyxw wayback backfill
 冈比亚,总统,巴罗,2024-09-06,2024-09-06,来华出席,1,PRC MFA zyxw wayback backfill
 中非,总统,图瓦德拉,2024-09-06,2024-09-06,来华出席,1,PRC MFA zyxw wayback backfill
 马达加斯加,总统,拉乔利纳,2024-09-06,2024-09-06,来华出席,1,PRC MFA zyxw wayback backfill
@@ -683,8 +683,8 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 萨摩亚,总理,菲娅梅,2024-12-18,2024-12-18,正式访问,1,PRC MFA zyxw wayback backfill
 格林纳达,总理,米切尔,2025-01-13,2025-01-13,正式访问,1,PRC MFA zyxw wayback backfill
 斯里兰卡,总统,迪萨纳亚克,2025-01-15,2025-01-15,国事访问,1,PRC MFA zyxw wayback backfill
-吉尔吉斯斯坦,总统,扎帕罗夫,2025-02-05,2025-02-05,国事访问,1,PRC MFA zyxw wayback backfill
 巴基斯坦,总统,扎尔达里,2025-02-05,2025-02-06,国事访问,2,PRC MFA zyxw wayback backfill
+吉尔吉斯斯坦,总统,扎帕罗夫,2025-02-05,2025-02-05,国事访问,1,PRC MFA zyxw wayback backfill
 泰国,总理,佩通坦,2025-02-06,2025-02-06,正式访问,1,PRC MFA zyxw wayback backfill
 文莱,苏丹,哈桑纳尔,2025-02-06,2025-02-06,国事访问,2,PRC MFA zyxw wayback backfill
 蒙古国,总理,奥云额尔登,2025-02-14,2025-02-14,来华出席,1,PRC MFA zyxw wayback backfill
@@ -704,11 +704,11 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 澳大利亚,总理,阿尔巴尼斯,2025-07-15,2025-07-15,正式访问,1,PRC MFA zyxw pipeline
 欧洲理事会,主席,科斯塔,2025-07-24,2025-07-24,会见/会谈(双边),1,PRC MFA zyxw pipeline
 柬埔寨,国王,西哈莫尼,2025-08-26,2025-08-26,国事访问,1,PRC MFA zyxw pipeline
-柬埔寨,首相,洪玛奈,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
-哈萨克斯坦,总统,托卡耶夫,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
+缅甸代,总统,敏昂莱,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
 埃及,总理,马德布利,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
 尼泊尔,总理,奥利,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
-缅甸代,总统,敏昂莱,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
+柬埔寨,首相,洪玛奈,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
+哈萨克斯坦,总统,托卡耶夫,2025-08-30,2025-08-30,来华出席,1,PRC MFA zyxw pipeline
 越南,总理,范明政,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
 土耳其,总统,埃尔多安,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
 印度,总理,莫迪,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
@@ -717,22 +717,22 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 马尔代夫,总统,穆伊兹,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
 白俄罗斯,总统,卢卡申科,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
 亚美尼亚,总理,帕什尼扬,2025-08-31,2025-08-31,来华出席,1,PRC MFA zyxw pipeline
-塔吉克斯坦,总统,拉赫蒙,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
-蒙古国,总统,呼日勒苏赫,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
-乌兹别克斯坦,总统,米尔济约耶夫,2025-09-02,2025-09-02,来华出席,2,PRC MFA zyxw pipeline
-巴基斯坦,总理,夏巴兹,2025-09-02,2025-09-04,来华出席,2,PRC MFA zyxw pipeline
-俄罗斯,总统,普京,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
-马来西亚,总理,安瓦尔,2025-09-02,2025-09-02,来华出席,2,PRC MFA zyxw pipeline
 伊朗,总统,佩泽希齐扬,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
 土库曼斯坦,总统,别尔德穆哈梅多夫,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
+马来西亚,总理,安瓦尔,2025-09-02,2025-09-02,来华出席,2,PRC MFA zyxw pipeline
+俄罗斯,总统,普京,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
+巴基斯坦,总理,夏巴兹,2025-09-02,2025-09-04,来华出席,2,PRC MFA zyxw pipeline
+乌兹别克斯坦,总统,米尔济约耶夫,2025-09-02,2025-09-02,来华出席,2,PRC MFA zyxw pipeline
+蒙古国,总统,呼日勒苏赫,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
+塔吉克斯坦,总统,拉赫蒙,2025-09-02,2025-09-02,来华出席,1,PRC MFA zyxw pipeline
 印度尼西亚,总统,普拉博沃,2025-09-03,2025-09-03,来华出席,1,PRC MFA zyxw pipeline
-古巴,国家主席/总书记,迪亚斯-卡内尔,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
-越南,国家主席,梁强,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
-老挝,国家主席/总书记,通伦,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
-朝鲜,国家主席/总书记,金正恩,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
-塞尔维亚,总统,武契奇,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
 斯洛伐克,总理,菲佐,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
+塞尔维亚,总统,武契奇,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
+朝鲜,国家主席/总书记,金正恩,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
 津巴布韦,总统,姆南加古瓦,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
+越南,国家主席,梁强,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
+古巴,国家主席/总书记,迪亚斯-卡内尔,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
+老挝,国家主席/总书记,通伦,2025-09-04,2025-09-04,来华出席,1,PRC MFA zyxw pipeline
 葡萄牙,总理,蒙特内格罗,2025-09-09,2025-09-09,正式访问,2,PRC MFA zyxw pipeline
 加纳,总统,马哈马,2025-10-13,2025-10-14,来华出席,2,PRC MFA zyxw pipeline
 斯里兰卡,总理,阿马拉苏里亚,2025-10-13,2025-10-14,来华出席,2,PRC MFA zyxw pipeline
@@ -768,6 +768,6 @@ country,leader_title,name,first,last,visit_type,n_articles,source
 白俄罗斯,总统,卢卡申科,2026-06-29,2026-06-29,会见/会谈(双边),1,PRC MFA zyxw pipeline
 纳米比亚,总统,恩代特瓦,2026-07-09,2026-07-10,国事访问,2,PRC MFA zyxw pipeline
 朝鲜,内阁总理,朴泰成,2026-07-10,2026-07-11,正式访问,2,PRC MFA zyxw pipeline
-柬埔寨,首相,洪玛奈,2026-07-16,2026-07-16,来华出席,1,PRC MFA zyxw pipeline
 哈萨克斯坦,总统,托卡耶夫,2026-07-16,2026-07-16,来华出席,1,PRC MFA zyxw pipeline
+柬埔寨,首相,洪玛奈,2026-07-16,2026-07-16,来华出席,1,PRC MFA zyxw pipeline
 泰国,总理,阿努廷,2026-07-17,2026-07-17,来华出席,1,PRC MFA zyxw pipeline
